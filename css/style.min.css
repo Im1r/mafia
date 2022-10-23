@@ -20,7 +20,7 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  color: #062730;
+  color: red;
   text-align: center;
   padding: 10px 0 10px 0;
   line-height: 18px;
@@ -53,7 +53,7 @@ header {
 h1 {
   font-family: "Bebas Neue";
   font-style: normal;
-  color: #062730;
+  color: red;
   font-weight: 400;
   font-size: 128px;
   margin-top: 165px;
@@ -65,7 +65,7 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #062730;
+  color: red;
   margin-top: 36px;
 }
 .start_link {
@@ -78,12 +78,12 @@ h1 {
   align-items: center;
   width: 493px;
   height: 59px;
-  background: #C22536;
+  background: red;
   border-radius: 12px;
 }
 .start_block span {
   text-decoration: none;
-  color: white;
+  color: #232323;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -93,7 +93,7 @@ h1 {
 .slider {
   min-height: 691px;
   padding: 144px 63px 144px 70px;
-  background: #062730;
+  background: #232323;
 }
 .slider_container {
   position: relative;
@@ -129,7 +129,7 @@ h1 {
 .slider_text {
   padding: 125px 0px 125px 60px;
   text-align: left;
-  color: white;
+  color: red;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -151,16 +151,17 @@ h1 {
 .team {
   min-height: 1535px;
   padding: 144px 0 105px 0;
+  background: linear-gradient(to right, white, red)
 }
 .team_header {
-  color: #000;
+  color: #232323;
   font-family: "Bebas Neue";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
 }
-.team .red {
-  color: #E52C2C;
+.team .patron {
+  color: #232323;
   margin-top: 112px;
 }
 .team_peoples {
