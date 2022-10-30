@@ -14,11 +14,11 @@ function showSlide(n = 1){
 showSlide();
 function changeSlide(n){
     slideIndex += n;
-    if(slideIndex>6){
+    if(slideIndex>4){
         slideIndex = 1;
     }
     if(slideIndex<1){
-        slideIndex = 6;
+        slideIndex = 4;
     }
     showSlide(slideIndex);
 }
